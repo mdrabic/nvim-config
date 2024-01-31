@@ -67,5 +67,10 @@ require("lazy").setup({
 		{'lewis6991/gitsigns.nvim'},
 		{'nvim-treesitter/nvim-treesitter-context'},
 		{'m4xshen/autoclose.nvim'},
+
+		--formatter
+		{
+			'stevearc/conform.nvim', opts = {},
+		},
 })
 
