@@ -74,4 +74,5 @@ require("lazy").setup({
 		"stevearc/conform.nvim",
 		opts = {},
 	},
+	{ "github/copilot.vim"},	
 })
