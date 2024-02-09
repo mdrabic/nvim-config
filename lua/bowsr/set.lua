@@ -18,3 +18,4 @@ vim.opt.updatetime = 50
 vim.opt.colorcolumn = "120"
 
 vim.g['netrw_bufsettings'] = "noma nomod nonu nobl nowrap ro rnu"
+vim.g.copilot_assume_mapped = true
