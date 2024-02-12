@@ -74,5 +74,11 @@ require("lazy").setup({
 		"stevearc/conform.nvim",
 		opts = {},
 	},
-	{ "github/copilot.vim"},	
+	{ "github/copilot.vim" },
+	-- Debugging
+	{ "mfussenegger/nvim-dap" },
+	{ "nvim-telescope/telescope-dap.nvim" },
+	{ "theHamsta/nvim-dap-virtual-text" },
+	{ "rcarriga/nvim-dap-ui" },
+	{ "leoluz/nvim-dap-go" },
 })
