@@ -81,4 +81,10 @@ require("lazy").setup({
 	{ "theHamsta/nvim-dap-virtual-text" },
 	{ "rcarriga/nvim-dap-ui" },
 	{ "leoluz/nvim-dap-go" },
+	-- js ts debugging
+	{
+		"Joakker/lua-json5",
+		build = "./install.sh",
+	},
+	{ "mxsdev/nvim-dap-vscode-js" },
 })
