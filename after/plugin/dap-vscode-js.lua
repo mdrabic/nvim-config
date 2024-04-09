@@ -2,11 +2,11 @@ local dapLocation = vim.fn.stdpath("data") .. "/mason/packages/js-debug-adapter/
 
 require("dap").adapters["pwa-node"] = {
 	type = "server",
-	host = "127.0.0.1",
-	port = 8123,
+	host = "localhost",
+	port = 8118,
 	executable = {
 		command = "node",
-		args = { dapLocation, "8123" },
+		args = { dapLocation, "8118" },
 	},
 }
 
